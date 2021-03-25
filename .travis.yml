@@ -4,6 +4,7 @@ before_script:
 script:
 - cd Lab4_PR27
 - mvn clean package
+- mvb package
 after_script:
 - echo "Script finished"
 after_succes:
